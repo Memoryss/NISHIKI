@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-22T07:02:59.574Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="zbHp9RHA_VyCs198VRGK" version="16.4.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-01-22T07:04:58.493Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="qu9WySZ-DMiBmxlXLPzt" version="16.4.5" type="github" pages="4">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="整体架构图">
     <mxGraphModel dx="1186" dy="686" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -563,7 +563,7 @@
         <mxCell id="v4cSZ5vyuLBC8fGyZKLN-9" value="aiproxy" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="v4cSZ5vyuLBC8fGyZKLN-1">
           <mxGeometry x="680" y="40" width="40" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="v4cSZ5vyuLBC8fGyZKLN-21" value="正常的对局流程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=default;" vertex="1" parent="v4cSZ5vyuLBC8fGyZKLN-1">
+        <mxCell id="v4cSZ5vyuLBC8fGyZKLN-21" value="对局流程" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=default;" vertex="1" parent="v4cSZ5vyuLBC8fGyZKLN-1">
           <mxGeometry x="120" y="270" width="650" height="50" as="geometry" />
         </mxCell>
         <mxCell id="v4cSZ5vyuLBC8fGyZKLN-22" value="通知对局流程结束" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="v4cSZ5vyuLBC8fGyZKLN-1" source="v4cSZ5vyuLBC8fGyZKLN-7" target="v4cSZ5vyuLBC8fGyZKLN-5">
