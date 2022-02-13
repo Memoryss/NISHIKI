@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T08:10:20.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="2zOR-3ESQOoZjS0zk_DC" version="16.5.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-02-13T09:03:34.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="ZE7J5qwb4_MbTvNzMIp-" version="16.5.5" type="github" pages="10">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="整体架构图">
     <mxGraphModel dx="1550" dy="827" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -866,7 +866,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="gi_W23Ng-JoUTjHLmrp0" name="第 8 页">
+  <diagram id="gi_W23Ng-JoUTjHLmrp0" name="NISHIKI 扩容 旧方案">
     <mxGraphModel dx="1550" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="M7Nhu_0gbs3qY7CPmQ6L-0" />
@@ -941,7 +941,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="k1jZQaknQ4bVLafgIrNd" name="第 9 页">
+  <diagram id="k1jZQaknQ4bVLafgIrNd" name="NISHIKI扩容新方案">
     <mxGraphModel dx="1550" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="zBmpvIgkWXQPECq3n18W-0" />
@@ -1037,6 +1037,14 @@
         <mxCell id="Zxv5pJzbWzSzSFjdtFZN-20" value="relaysvr" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeWidth=1;" vertex="1" parent="zBmpvIgkWXQPECq3n18W-1">
           <mxGeometry x="257" y="416" width="90" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E6y3d2J5L-m_CYNMH5Fw" name="NISHIKI AI 不停机更新">
+    <mxGraphModel dx="1550" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="MK7Us_rqqEi8JNPgG9DU-0" />
+        <mxCell id="MK7Us_rqqEi8JNPgG9DU-1" parent="MK7Us_rqqEi8JNPgG9DU-0" />
       </root>
     </mxGraphModel>
   </diagram>
