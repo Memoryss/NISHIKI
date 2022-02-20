@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-19T03:42:07.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Yz60bQLl3C1tCKPbrALg" version="16.5.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-02-20T06:16:16.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="t53_i3CUBAtnpTGkbReK" version="16.5.6" type="github" pages="10">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="整体架构图">
     <mxGraphModel dx="1550" dy="827" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -321,7 +321,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2STJWsbimgQR2f7koZ5o" name="NISHIKI AI">
-    <mxGraphModel dx="1550" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="827" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="2Ao4ZpsVJw9oH1wQN9Oj-0" />
         <mxCell id="2Ao4ZpsVJw9oH1wQN9Oj-1" parent="2Ao4ZpsVJw9oH1wQN9Oj-0" />
@@ -619,11 +619,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ENNMhgux2f-iruVChreo" name="NISHIKI AI高可用">
-    <mxGraphModel dx="1550" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1114" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dcTvriqG9T5MEzG9uUyU-0" />
         <mxCell id="dcTvriqG9T5MEzG9uUyU-1" parent="dcTvriqG9T5MEzG9uUyU-0" />
-        <mxCell id="FVOdSc65JtLOy6w69zxW-4" value="DS异常" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;labelBackgroundColor=none;labelBorderColor=none;fontStyle=1;fontSize=14;" vertex="1" parent="dcTvriqG9T5MEzG9uUyU-1">
+        <mxCell id="FVOdSc65JtLOy6w69zxW-4" value="DS异常" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;labelBackgroundColor=none;labelBorderColor=none;fontStyle=1;fontSize=14;" parent="dcTvriqG9T5MEzG9uUyU-1" vertex="1">
           <mxGeometry x="68" y="914" width="388" height="266" as="geometry" />
         </mxCell>
         <mxCell id="l9C1ZKVXEbGFNKyZnL03-44" value="Relay异常" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;labelBackgroundColor=none;labelBorderColor=none;fontStyle=1;fontSize=14;" parent="dcTvriqG9T5MEzG9uUyU-1" vertex="1">
@@ -635,7 +635,7 @@
         <mxCell id="l9C1ZKVXEbGFNKyZnL03-42" value="DSAgent异常" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;labelBackgroundColor=none;labelBorderColor=none;fontStyle=1;fontSize=14;sketch=0;" parent="dcTvriqG9T5MEzG9uUyU-1" vertex="1">
           <mxGeometry x="68" y="24" width="388" height="266" as="geometry" />
         </mxCell>
-        <mxCell id="dcTvriqG9T5MEzG9uUyU-2" value="Matchsvr" style="rounded=0;whiteSpace=wrap;html=1;" parent="dcTvriqG9T5MEzG9uUyU-1" vertex="1">
+        <mxCell id="dcTvriqG9T5MEzG9uUyU-2" value="DSCenter" style="rounded=0;whiteSpace=wrap;html=1;" parent="dcTvriqG9T5MEzG9uUyU-1" vertex="1">
           <mxGeometry x="193" y="61" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l9C1ZKVXEbGFNKyZnL03-0" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="dcTvriqG9T5MEzG9uUyU-1" source="dcTvriqG9T5MEzG9uUyU-3" target="dcTvriqG9T5MEzG9uUyU-2" edge="1">
@@ -716,7 +716,7 @@
         <mxCell id="l9C1ZKVXEbGFNKyZnL03-30" value="Relaysvr" style="rounded=0;whiteSpace=wrap;html=1;" parent="dcTvriqG9T5MEzG9uUyU-1" vertex="1">
           <mxGeometry x="296" y="1083" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FVOdSc65JtLOy6w69zxW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=none;endFill=0;strokeWidth=1;" edge="1" parent="dcTvriqG9T5MEzG9uUyU-1" source="l9C1ZKVXEbGFNKyZnL03-33" target="l9C1ZKVXEbGFNKyZnL03-30">
+        <mxCell id="FVOdSc65JtLOy6w69zxW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=none;endFill=0;strokeWidth=1;" parent="dcTvriqG9T5MEzG9uUyU-1" source="l9C1ZKVXEbGFNKyZnL03-33" target="l9C1ZKVXEbGFNKyZnL03-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l9C1ZKVXEbGFNKyZnL03-33" value="DS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" parent="dcTvriqG9T5MEzG9uUyU-1" vertex="1">
@@ -741,15 +741,15 @@
             <mxPoint x="-29" y="-31" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FVOdSc65JtLOy6w69zxW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=none;endFill=0;strokeWidth=1;" edge="1" parent="dcTvriqG9T5MEzG9uUyU-1" source="FVOdSc65JtLOy6w69zxW-0" target="l9C1ZKVXEbGFNKyZnL03-33">
+        <mxCell id="FVOdSc65JtLOy6w69zxW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=none;endFill=0;strokeWidth=1;" parent="dcTvriqG9T5MEzG9uUyU-1" source="FVOdSc65JtLOy6w69zxW-0" target="l9C1ZKVXEbGFNKyZnL03-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FVOdSc65JtLOy6w69zxW-2" value="超时回收" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="FVOdSc65JtLOy6w69zxW-1">
+        <mxCell id="FVOdSc65JtLOy6w69zxW-2" value="超时回收" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Helvetica;fontColor=default;" parent="FVOdSc65JtLOy6w69zxW-1" vertex="1" connectable="0">
           <mxGeometry x="0.2405" relative="1" as="geometry">
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FVOdSc65JtLOy6w69zxW-0" value="DSAgent" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;fontFamily=Helvetica;fontSize=13;fontColor=default;strokeWidth=1;" vertex="1" parent="dcTvriqG9T5MEzG9uUyU-1">
+        <mxCell id="FVOdSc65JtLOy6w69zxW-0" value="DSAgent" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=0;fontFamily=Helvetica;fontSize=13;fontColor=default;strokeWidth=1;" parent="dcTvriqG9T5MEzG9uUyU-1" vertex="1">
           <mxGeometry x="71" y="952" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l9C1ZKVXEbGFNKyZnL03-50" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/august/PNG/Globe%20Disconnect.png;labelBorderColor=none;fontSize=14;fontColor=#330000;fillColor=#CCCCCC;" parent="dcTvriqG9T5MEzG9uUyU-1" vertex="1">
@@ -1018,7 +1018,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E6y3d2J5L-m_CYNMH5Fw" name="NISHIKI AI 不停机更新">
-    <mxGraphModel dx="1550" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="827" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="MK7Us_rqqEi8JNPgG9DU-0" />
         <mxCell id="MK7Us_rqqEi8JNPgG9DU-1" parent="MK7Us_rqqEi8JNPgG9DU-0" />
