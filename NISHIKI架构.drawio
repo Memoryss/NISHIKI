@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T14:34:20.600Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Zw28x_O6KCyW4l7B42Xd" version="16.6.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-02-24T14:34:41.930Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="VN5vQAQT6QDNyzvzjoIF" version="16.6.2" type="github" pages="10">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="整体架构图">
     <mxGraphModel dx="1550" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="tSn-I85bOhlhE9YaRbNu-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="14" y="367" width="40.5" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="vBfj43l-oDZJhy6sIn51-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="7KZkec6slJOl6fVdp8O3-6" target="vBfj43l-oDZJhy6sIn51-2">
+        <mxCell id="vBfj43l-oDZJhy6sIn51-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;strokeWidth=3;" edge="1" parent="1" source="7KZkec6slJOl6fVdp8O3-6" target="vBfj43l-oDZJhy6sIn51-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7KZkec6slJOl6fVdp8O3-6" value="战斗(就近部署)" style="swimlane;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
