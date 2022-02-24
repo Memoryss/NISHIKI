@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-20T06:16:16.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="t53_i3CUBAtnpTGkbReK" version="16.5.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-02-24T01:28:58.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="_4i8D7OFgmAsUBt_49lJ" version="16.6.1" type="github" pages="10">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="整体架构图">
     <mxGraphModel dx="1550" dy="827" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1018,7 +1018,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E6y3d2J5L-m_CYNMH5Fw" name="NISHIKI AI 不停机更新">
-    <mxGraphModel dx="1550" dy="827" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="MK7Us_rqqEi8JNPgG9DU-0" />
         <mxCell id="MK7Us_rqqEi8JNPgG9DU-1" parent="MK7Us_rqqEi8JNPgG9DU-0" />
