@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-25T09:03:58.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="BBW5c28dALmwpE3tmoET" version="20.7.4" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2022-12-26T01:39:44.313Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PShZ1s7CLIyZk7RQ6ug1" version="20.7.4" type="github" pages="19">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="整体架构图">
     <mxGraphModel dx="1242" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1729,10 +1729,122 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MYPKZ___hVKPxs7lAN3U" name="第 19 页">
-    <mxGraphModel dx="1562" dy="773" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1302" dy="644" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lrYcFY5sTWriybVCdinV-2" value="aiagentcenter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="126" y="116" width="100" height="521" as="geometry" />
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillStyle=auto;fillColor=#FFFFFF;" vertex="1" parent="lrYcFY5sTWriybVCdinV-2">
+          <mxGeometry x="46" y="77" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-8" value="center启动" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="lrYcFY5sTWriybVCdinV-7" parent="lrYcFY5sTWriybVCdinV-2">
+          <mxGeometry x="-0.04" y="7" relative="1" as="geometry">
+            <mxPoint x="51" y="57" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="81" y="57" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-25" value="同步路由信息" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="lrYcFY5sTWriybVCdinV-2" target="lrYcFY5sTWriybVCdinV-4">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="50" y="189" as="sourcePoint" />
+            <mxPoint x="110" y="189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillStyle=auto;fillColor=#FFFFFF;" vertex="1" parent="lrYcFY5sTWriybVCdinV-2">
+          <mxGeometry x="41" y="456" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-36" value="检测到aimaster心跳超时" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="lrYcFY5sTWriybVCdinV-35" parent="lrYcFY5sTWriybVCdinV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="46" y="436" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="76" y="436" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-37" value="同步路由更新" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="lrYcFY5sTWriybVCdinV-2" target="lrYcFY5sTWriybVCdinV-4">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="50" y="508" as="sourcePoint" />
+            <mxPoint x="110" y="508" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-3" value="aimaster" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="261" y="116" width="100" height="355" as="geometry" />
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillStyle=auto;fillColor=#FFFFFF;" vertex="1" parent="lrYcFY5sTWriybVCdinV-3">
+          <mxGeometry x="46" y="77" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-10" value="agent启动" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="lrYcFY5sTWriybVCdinV-9" parent="lrYcFY5sTWriybVCdinV-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="51" y="57" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="81" y="57" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-4" value="choosemaster" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#FFFFFF;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="396" y="116" width="100" height="524" as="geometry" />
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillStyle=auto;fillColor=#FFFFFF;" vertex="1" parent="lrYcFY5sTWriybVCdinV-4">
+          <mxGeometry x="44" y="77" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-16" value="agent启动" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="lrYcFY5sTWriybVCdinV-15" parent="lrYcFY5sTWriybVCdinV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="49" y="57" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="79" y="57" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillStyle=auto;fillColor=#FFFFFF;" vertex="1" parent="lrYcFY5sTWriybVCdinV-4">
+          <mxGeometry x="44" y="232" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-27" value="修改本地路由文件" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="lrYcFY5sTWriybVCdinV-26" parent="lrYcFY5sTWriybVCdinV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="49" y="212" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="79" y="212" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillStyle=auto;fillColor=#FFFFFF;" vertex="1" parent="lrYcFY5sTWriybVCdinV-4">
+          <mxGeometry x="46" y="318" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-29" value="启动choosemaster进程" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="lrYcFY5sTWriybVCdinV-28" parent="lrYcFY5sTWriybVCdinV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="51" y="298" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="81" y="298" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-11" value="连接center&amp;amp;上报ip port信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="lrYcFY5sTWriybVCdinV-2">
+          <mxGeometry x="-0.7469" y="28" relative="1" as="geometry">
+            <mxPoint x="310" y="249" as="sourcePoint" />
+            <mxPoint x="230" y="249" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-22" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="lrYcFY5sTWriybVCdinV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="443" y="260" as="sourcePoint" />
+            <mxPoint x="363" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillStyle=auto;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="302" y="494" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lrYcFY5sTWriybVCdinV-33" value="宕机" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="lrYcFY5sTWriybVCdinV-32" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="307" y="474" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="337" y="474" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
