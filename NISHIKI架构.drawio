@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-29T04:33:47.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wdGOapK3qKYpokkWytsw" version="20.7.4" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2023-01-14T11:34:04.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="z8cXsBcDelSjg4TtGtE0" version="20.7.4" type="github" pages="20">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="整体架构图">
     <mxGraphModel dx="1562" dy="829" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -470,7 +470,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="NISHIKI AI架构2022" id="m1qa0Qp8CA-LTGImft49">
-    <mxGraphModel dx="1562" dy="773" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="829" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="1yoyxCQLrx4QwvvUh93U-0" />
         <mxCell id="1yoyxCQLrx4QwvvUh93U-1" parent="1yoyxCQLrx4QwvvUh93U-0" />
@@ -625,8 +625,8 @@
         <mxCell id="9WjaMC3EnY1W6PvNTe0y-11" value="&lt;font color=&quot;#330000&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;韩国集群&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#FF0000;" parent="1yoyxCQLrx4QwvvUh93U-1" vertex="1">
           <mxGeometry x="769.5" y="21" width="114" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="9WjaMC3EnY1W6PvNTe0y-26" value="&lt;font&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;共享ds&amp;amp;ai资源&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#FF0000;labelBackgroundColor=default;" parent="1yoyxCQLrx4QwvvUh93U-1" vertex="1">
-          <mxGeometry x="634" y="298" width="179" height="41" as="geometry" />
+        <mxCell id="9WjaMC3EnY1W6PvNTe0y-26" value="&lt;font&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;共享ds&amp;amp;ai资源(专线)&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#FF0000;labelBackgroundColor=default;" parent="1yoyxCQLrx4QwvvUh93U-1" vertex="1">
+          <mxGeometry x="602" y="298" width="243" height="41" as="geometry" />
         </mxCell>
         <mxCell id="9WjaMC3EnY1W6PvNTe0y-33" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=none;strokeColor=#6666FF;" parent="1yoyxCQLrx4QwvvUh93U-1" vertex="1">
           <mxGeometry x="287" y="394" width="725" height="399" as="geometry" />
@@ -660,7 +660,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dov6WJ6caeMtDobz2iHI" name="NISHIKI AI 扩缩容">
-    <mxGraphModel dx="1562" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="v4cSZ5vyuLBC8fGyZKLN-0" />
         <mxCell id="v4cSZ5vyuLBC8fGyZKLN-1" parent="v4cSZ5vyuLBC8fGyZKLN-0" />
