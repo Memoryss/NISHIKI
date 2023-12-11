@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T13:38:37.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Qm4GITqZGd3bgHhdgf4T" version="22.1.7" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2023-12-11T03:09:51.110Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ihpw_w-JKl9QlG_nnqzi" version="22.1.7" type="github" pages="27">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="整体架构图">
     <mxGraphModel dx="2074" dy="1110" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2439,18 +2439,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SMt6eYQ5xIfIqZuHeEgD" name="matchsvr假人池，支持更新">
-    <mxGraphModel dx="2901" dy="1110" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1110" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cIhht_iYlRcSmfkrnjrE-2" value="matchsvr_green1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="123" y="69" width="100" height="719" as="geometry" />
-        </mxCell>
-        <mxCell id="cIhht_iYlRcSmfkrnjrE-3" value="matchsvr_green2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="262" y="69" width="100" height="692" as="geometry" />
+          <mxGeometry x="138" y="68" width="100" height="719" as="geometry" />
         </mxCell>
         <mxCell id="cIhht_iYlRcSmfkrnjrE-6" value="matchsvr_blue1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="400" y="69" width="100" height="685" as="geometry" />
+          <mxGeometry x="415" y="68" width="100" height="685" as="geometry" />
         </mxCell>
         <mxCell id="cIhht_iYlRcSmfkrnjrE-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cIhht_iYlRcSmfkrnjrE-6">
           <mxGeometry x="45" y="80" width="10" height="40" as="geometry" />
@@ -2466,7 +2463,7 @@
         <mxCell id="cIhht_iYlRcSmfkrnjrE-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cIhht_iYlRcSmfkrnjrE-6">
           <mxGeometry x="43" y="210" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cIhht_iYlRcSmfkrnjrE-21" value="把uid存入到假人池中" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="cIhht_iYlRcSmfkrnjrE-20" parent="cIhht_iYlRcSmfkrnjrE-6">
+        <mxCell id="cIhht_iYlRcSmfkrnjrE-21" value="把uid存入到假人池中&lt;br&gt;（这里也可以做一个大小限制，只要满足基本需求之后，&lt;br&gt;就不需要继续添加uid了）" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="cIhht_iYlRcSmfkrnjrE-20" parent="cIhht_iYlRcSmfkrnjrE-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="48" y="190" as="sourcePoint" />
             <Array as="points">
@@ -2496,60 +2493,52 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cIhht_iYlRcSmfkrnjrE-7" value="matchsvr_blue2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="539" y="69" width="100" height="693" as="geometry" />
-        </mxCell>
-        <mxCell id="cIhht_iYlRcSmfkrnjrE-17" value="广播请求假人池uid" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="cIhht_iYlRcSmfkrnjrE-3">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="449" y="207" as="sourcePoint" />
-            <mxPoint x="529" y="207" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="cIhht_iYlRcSmfkrnjrE-18" value="广播请求假人池uid" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="448" y="218.5" as="sourcePoint" />
-            <mxPoint x="171" y="218.5" as="targetPoint" />
+            <mxPoint x="463" y="217.5" as="sourcePoint" />
+            <mxPoint x="186" y="217.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cIhht_iYlRcSmfkrnjrE-19" value="返回uid（看下消息大小要不要分批次）" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="cIhht_iYlRcSmfkrnjrE-6">
+        <mxCell id="cIhht_iYlRcSmfkrnjrE-19" value="只返回假人uid信息（看下消息大小要不要分批次）" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="cIhht_iYlRcSmfkrnjrE-6">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="172" y="244" as="sourcePoint" />
-            <mxPoint x="252" y="244" as="targetPoint" />
+            <mxPoint x="187" y="243" as="sourcePoint" />
+            <mxPoint x="267" y="243" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cIhht_iYlRcSmfkrnjrE-22" value="briefsvr" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="711" y="69" width="100" height="711" as="geometry" />
+          <mxGeometry x="726" y="68" width="100" height="711" as="geometry" />
         </mxCell>
         <mxCell id="uQId_I0RlzS1IsQm5Hg_-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cIhht_iYlRcSmfkrnjrE-22">
           <mxGeometry x="42" y="506" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uQId_I0RlzS1IsQm5Hg_-2" value="这里的uid基本上都是热数据，性能比较高" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="uQId_I0RlzS1IsQm5Hg_-1" parent="cIhht_iYlRcSmfkrnjrE-22">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="uQId_I0RlzS1IsQm5Hg_-2" value="这里的uid基本上都是热数据，性能比较高&lt;br&gt;（这里有个缺点是要保证，brief里面信息是大于等于假人池里面的信息）" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="uQId_I0RlzS1IsQm5Hg_-1" parent="cIhht_iYlRcSmfkrnjrE-22">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="47" y="486" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="77" y="516" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cIhht_iYlRcSmfkrnjrE-23" value="roomsvr" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-13" y="69" width="100" height="719" as="geometry" />
+          <mxGeometry x="2" y="68" width="100" height="719" as="geometry" />
         </mxCell>
         <mxCell id="cIhht_iYlRcSmfkrnjrE-24" value="开始游戏" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="41" y="394" as="sourcePoint" />
-            <mxPoint x="454" y="396" as="targetPoint" />
+            <mxPoint x="56" y="393" as="sourcePoint" />
+            <mxPoint x="469" y="395" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cIhht_iYlRcSmfkrnjrE-29" value="brief拉去这几个玩家的信息&lt;br&gt;(这里要评估下，匹配qps，和brief qps&lt;br&gt;)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="cIhht_iYlRcSmfkrnjrE-22">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="451" y="522" as="sourcePoint" />
-            <mxPoint x="531" y="522" as="targetPoint" />
+            <mxPoint x="466" y="521" as="sourcePoint" />
+            <mxPoint x="546" y="521" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cIhht_iYlRcSmfkrnjrE-30" value="返回" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="760.5" y="647" as="sourcePoint" />
-            <mxPoint x="451" y="647" as="targetPoint" />
+            <mxPoint x="775.5" y="646" as="sourcePoint" />
+            <mxPoint x="466" y="646" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
